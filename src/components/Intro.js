@@ -7,7 +7,7 @@ function Intro(){
     return(
       <React.Fragment>
       <div className="view jarallax"> 
-        <img  src={Fondo} className="jarallax-img"/>
+        <img alt="" src={Fondo} className="jarallax-img"/>
         <div className="mask rgba-indigo-lighten-1 text-white" >
           <div className="flex-center pb-0 mb-5 mt-5">
            <div className="text-center col-12 col-md-9 col-lg-7 ">

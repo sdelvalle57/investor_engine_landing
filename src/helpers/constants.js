@@ -1,0 +1,1 @@
+export const LANDING_FORM_PATH = "landing_form";
