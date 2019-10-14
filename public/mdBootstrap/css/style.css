@@ -127,3 +127,9 @@ ul{
 .md-form .prefix.prefix-indigo-lighten-1.active{
     color:  rgb(196, 120, 238);
 }
+
+.fas.fa-check-circle.ml-1.success {
+    margin-left: .25rem !important;
+    font-size: 35px;
+    color: green;
+}
