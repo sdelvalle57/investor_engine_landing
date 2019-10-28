@@ -3,6 +3,7 @@ import Fondo from '../images/Imagen contacto-07.png';
 import {pushToFirebase} from '../helpers/db_services'; 
 import {validateEmail} from '../helpers/validators'; 
 import {LANDING_FORM_PATH} from '../helpers/constants';
+import Paragraph from '../components/Paragraph';
 
 function Contact(){
 
@@ -115,10 +116,14 @@ function Contact(){
             <img src={Fondo} className="jarallax-img" />
             <div className="mask rgba-indigo-lighten-1 text-white">
                 <div className="flex-center">
+
+                
                     
                     <div className="col-lg-5 col-sm-4 col-6 wow fadeInLeft">
+
+                    
                         <h5 className="mb-3 font-weight-bolder">
-                            <b>"Think you can help? Lets Talk"</b>  
+                            <b>Would you like to be involved?</b>  
                         </h5>
                         <p className="mb-4 font-weight-bolder">
                             We're a rowdy bunch, obsessed with holochain, and can't wait to make this project live. We have a clear roadmap, but many hands make light work.
@@ -172,7 +177,7 @@ function Contact(){
                                     onChange= {({target}) => setDataValues("text", target.value)}
                                     className="form-control md-textarea"></textarea>
                                 <label htmlFor="serviceInterested" className="text-white font-weight-bold label-min"><small>
-                                    "How do you think you can help?" (or chat to us on our holochain mattermost channel)
+                                    How do you think you can help?
                                     </small>
                                 </label>
                                 {data.text.error ? "Complete this field":null}
@@ -182,7 +187,7 @@ function Contact(){
                                 <button 
                                     className="btn btn-outline-white mb-5 wow fadeInUp" 
                                     onClick={submit}
-                                    >Submit</button>
+                                    >Submit Expression of Interest</button>
                             </div>
 
                         </form>

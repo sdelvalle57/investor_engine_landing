@@ -20,14 +20,14 @@ function Navbar(){
               <li className="nav-item active">
                 <a className="nav-link" href="#header" data-scroll>HOME</a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#about" data-scroll>ABOUT</a>
+              </li> */}
+              <li className="nav-item">
+                <a className="nav-link" target="_blank"href="https://github.com/holo-rea/ecosystem/wiki/REA-learning-material-trove" data-scroll>ACCOUNTABILITY</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://investor.engine.web.app/" data-scroll>ACCOUNTABILITY</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">UPDATES</a>
+                <a className="nav-link" href="#">DEMO</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact" data-scroll>CONTACT</a>

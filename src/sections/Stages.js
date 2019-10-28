@@ -3,26 +3,25 @@ import CardStage from '../components/CardStage';
 import Photo from '../images/cuadro-07.png'
 
 function Stages(){
-    const list1 = ["Initial Concept.",
-                   "Features and User Stories Identified.",
-                   "Define value flow equations.",
-                   "Seed Money (Value Flow subject to change).",
-                   "Validate Value Flow Equations.",
-                   "Initial Team Recruited",
-                   "Build Tax Free Legal Structure",
-                   "Build Crowdfund Page"
+    const list1 = ["Initial concept. - DONE",
+                   "Build MVP to take Expressions of Interests. - DONE",
+                   "Define value flow equations. - IN PROGRESS",
+                   "Seed Money (Value Flow subject to change). - IN PROGRESS",
+                   "Validate Value Flow Equations. - IN PROGRESS",
+                   "Initial Team Recruited - IN PROGRESS",
+                   "Build Tax Free Legal Structure - DONE",
+                   "Build Crowdfund Page - DONE"
                   ];
 
-    const list2 = ["Execute work as fund raising milestones met.",
+    const list2 = ["Execute work as fund raising milestones met. - IN PROGRESS",
                    "Deploy Equity Token as Regulated ERC20 Token.",
+                   "Manage Buckets of Equity on Ethereum - DONE"
                   ];
 
-    const list3 = ["Finish Design for each User story.",
+    const list3 = ["Migrate Investor Engine to Holochain Backend.",
                    "Design Knowledge Layer ontologies for HoloREA backend",
-                   "Build Front-End Components.",
-                   "Wire up.",
+                   "Build Investor Engine Process in HoloREA",
                    "Assist other projects to raise funds from InvestorEngine MVP.",
-                   "Take on other projects that want to raise funds."
                   ];
     return(
         <div style={{background:`#FAFAFA`}} className="pt-5 pb-5">         
@@ -46,7 +45,7 @@ function Stages(){
                     </div>
                 </div>
                 <br />
-                <h4 className="text-center font-weight-bolder">REGISTER EXPRESSION OF INTEREST</h4>
+                
                 
             </div>
         </div>

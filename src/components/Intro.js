@@ -88,20 +88,19 @@ function Intro() {
                 className="h1-responsive font-weight-bold mb-3 wow fadeInDown"
                 data-wow-delay="0.6s"
               >
-                Solving the Funding Issue
+                Matching Good Investors with Good Projects
               </h1>
               <p
                 className="font-weight-bolder mb-3 wow fadeInLeft"
                 data-wow-delay="0.7s"
               >
-                The kickstarter of Web3, raise funds, and use holochain to track
-                the impact and return of your investments all powered by{" "}
+                Capital for the distributed ecosystem powered by{" "}
                 <a
                   href="https://github.com/holo-rea/"
                   className="text-white font-weight-bolder"
                   style={{ textDecoration: `underline` }}
                 >
-                  HoloREA
+                  Holochain
                 </a>
               </p>
               <button
@@ -110,7 +109,7 @@ function Intro() {
                 data-toggle="modal"
                 data-target="#modalLRForm"
               >
-                Get Updates
+                Get Demo Access
               </button>
             </div>
             <div
@@ -143,7 +142,7 @@ function Intro() {
                 <li className="nav-item">
                   <a className="nav-link text-white" data-toggle="tab">
                     <i className="fas fa-bell"></i>
-                    Get Updates
+                    Get Demo Access
                   </a>
                 </li>
               </ul>
@@ -175,7 +174,7 @@ function Intro() {
                         <button
                           className="btn btn-indigo-lighten-1"
                           onClick={submit}
-                          type="button">GET<i className="fas fa-sign-in ml-1"></i>
+                          type="button">Get Demo Access<i className="fas fa-sign-in ml-1"></i>
                       </button>
                     }
                       
