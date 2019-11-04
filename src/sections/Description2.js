@@ -10,7 +10,7 @@ class Description2 extends React.Component{
             "Price up the job to build.",
             "Scope out the true cost of building Me new capacity.",
             "Put the concept out to the InvestorEngine community for value equation verification and idea improvement.",
-            "Provide an offer to the community with the formula on how investors will b paid back",
+            "Provide an offer to the community with the formula on how investors will be paid back",
             "Make live for crowd-fund",
             "Continue project as funding stages are reached."
         ];

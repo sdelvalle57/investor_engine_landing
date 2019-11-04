@@ -60,7 +60,7 @@ function Principal(){
             <Barra title="This will be awesome" classTitle="font-weight-bold wow fadeInRight"/>
 
             <section>
-                <Description2 title="For social Entreprenures" background="#FAFAFA"/>
+                <Description2 title="For social Entrepreneurs" background="#FAFAFA"/>
             </section>
 
             <div style={{position:`relative`}}>
@@ -82,7 +82,7 @@ function Principal(){
                         <br/><br/>
                         <p><strong>CHECK OUT OUR</strong></p>
                         <p>InvestorEngine: Value Equation</p>
-                        <p>This project will kickoff once enough poeple evaluatate this value equation to see if this business model will work for them as either an investment or service provider.</p>
+                        <p>This project will kickoff once enough poeple evaluate this value equation to see if this business model will work for them as either an investment or service provider.</p>
                     </div>
                     {/* <div className="m-auto" style={{maxWidth:`600px`,position:'relative',transform:'translateY(50%)',zIndex:`2`}}>
                         <div className="card" style={{borderRadius:`0`}}>

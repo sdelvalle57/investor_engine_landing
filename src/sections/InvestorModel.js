@@ -17,8 +17,9 @@ function InvestorModel(){
             />
             <br/>
               
-            <div className="row mb-5">
-              <div className="col-4">
+            
+            <div className="row">
+              <div className="col-lg-4">
                 <div className="d-flex justify-content-center mb-4">
                     <img src={icon1} className="wow rotateInUpRight" width="25%"/>
                 </div>
@@ -30,7 +31,7 @@ function InvestorModel(){
                 </div>
               </div>
 
-              <div className="col-4">
+              <div className="col-lg-4">
                 <div className="d-flex justify-content-center mb-4">
                   <img src={icon2} className="wow rotateInUpRight" width="25%" />
                 </div>
@@ -40,7 +41,7 @@ function InvestorModel(){
                 </div>
               </div>
 
-              <div className="col-4">
+              <div className="col-lg-4">
                 <div className="d-flex justify-content-center mb-4">
                     <img src={icon3} className="wow rotateInUpRight" width="25%"/>
                 </div>
