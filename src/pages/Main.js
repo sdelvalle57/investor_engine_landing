@@ -13,73 +13,81 @@ import Principals from '../sections/Principals';
 import Stages from '../sections/Stages';
 import Contact from '../sections/Contact';
 import Footer from '../sections/Footer';
+import Paragraph from '../components/Paragraph';
 
 import Photo from '../images/holo-05.jpg'
 
 import Picture1 from '../images/mapa 1-08.png'
 
-function Principal(){
-    return(
+function Principal() {
+    return (
         <div>
-            
+
             <header id="header">
-            <div style={{position:`relative`}}>
-                <div id="what" className="signal"></div>
-            </div>
+                <div style={{ position: `relative` }}>
+                    <div id="what" className="signal"></div>
+                </div>
                 <Header />
             </header>
 
-            <div style={{position: `relative`,}}>
+            <div style={{ position: `relative`, }}>
                 <div id="who" className="signal"></div>
             </div>
-            <section className="container team-section text-center my-5">
+            {/* <section className="container team-section text-center my-5">
                 <Team />
-            </section>
+            </section> */}
 
             <div className="container-fluid mt-5">
                 <p className="text-center font-weight-bolder">Our Mission is to Help you Fund Your Web3 Project</p>
                 <img src={Picture1} width="100%" className="wow fadeInRight" />
             </div>
-            <section style={{position:`relative`}}>
+            <section style={{ position: `relative` }}>
                 <div id="why" className="signal"></div>
-                <Description title="Why We're Doing This?" background="#FAFAFA"/>
+                <Description title="Problem" background="#FAFAFA" />
             </section>
 
             <section>
                 <InvestorModel />
             </section>
-            <div style={{position:`relative`}}>
+            <div style={{ position: `relative` }}>
                 <div id="forProductCreators" className="signalBig"></div>
             </div>
-            <Barra title="We've hacked the money system" classTitle="font-weight-bold wow fadeInLeft"/>
+            <Barra title="We have the right Technology, Structures and Relationships to make this happen." classTitle="font-weight-bold wow fadeInLeft" />
 
             <section>
-                <AcquiringFounds/>
+                <AcquiringFounds />
             </section>
 
-            <Barra title="This will be awesome" classTitle="font-weight-bold wow fadeInRight"/>
+            <Barra title="This will be awesome" classTitle="font-weight-bold wow fadeInRight" />
 
             <section>
                 <Description2 title="For social Entrepreneurs" background="#FAFAFA"/>
             </section>
 
-            <div style={{position:`relative`}}>
+            <div style={{ position: `relative` }}>
                 <div id="forInvestor" className="signal"></div>
             </div>
             <TestBlue title="For The Investor" classbackground="indigo-lighten-2 pt-5 pb-5"
-                          text="Finally you have a lens to evaluate investments to see if they make sense" 
-                          text2={<React.Fragment>We de-risk the Investor Model using the benefit redistribution algorithm which prescribes how benefits (including revenue, access to governance, etc.) are distributed to all participants (active <a className="font-weight-bolder text-info" href="http://valuenetwork.referata.com/wiki/Affiliates">affiliates</a>) in a collaborative process.</React.Fragment>} 
-                          text3={<strong><b>Investing just got a whole lost easier</b></strong>}
-                />
+                text="Finally you have a lens to evaluate investments to see if they make sense"
+                text2={<React.Fragment>We de-risk the Investor Model using the benefit redistribution algorithm which prescribes how benefits (including revenue, access to governance, etc.) are distributed to all participants (active <a className="font-weight-bolder text-info" href="http://valuenetwork.referata.com/wiki/Affiliates">affiliates</a>) in a collaborative process.</React.Fragment>}
+                text3={<strong><b>Investing just got a whole lost easier</b></strong>}
+            />
+
+            <section>
+                <br></br>
+                <br></br>
+
+                <Paragraph title="Dont't Trust us... Run the Numbers for yourself" />
+            </section>
 
             <section>
                 <div className="container-fluid pt-3">
-                <div style={{position:`relative`}}>
-                    <div id="theOffer" className="signalBig"></div>
-                </div>
-                    <div className="container text-center wow fadeIn" style={{maxWidth:`600px`}}>
-                        <p>Don't trust us... Run the numbers yourself...</p>
-                        <br/><br/>
+                    <div style={{ position: `relative` }}>
+                        <div id="theOffer" className="signalBig"></div>
+                    </div>
+                    <div className="container text-center wow fadeIn" style={{ maxWidth: `600px` }}>
+
+                        <br /><br />
                         <p><strong>CHECK OUT OUR</strong></p>
                         <p>InvestorEngine: Value Equation</p>
                         <p>This project will kickoff once enough poeple evaluate this value equation to see if this business model will work for them as either an investment or service provider.</p>
@@ -93,41 +101,43 @@ function Principal(){
                         </div> */}
                 </div>
                 <div className="container-fluid">
-                    <img src={Photo} width="100%" className="img-fluid wow bounceIn"/>  
+                    <img src={Photo} width="100%" className="img-fluid wow bounceIn" />
                 </div>
             </section>
 
             <section>
-                <div style={{position:`relative`}}>
-                <div id="principals" className="signal"></div>
+                <div style={{ position: `relative` }}>
+                    <div id="principals" className="signal"></div>
                 </div>
                 <Principals title="These Principals Guild Everything We Do" />
             </section>
 
             <section>
-                <div style={{position:`relative`}}>
+                <div style={{ position: `relative` }}>
                     <div id="accountability" className="signal"></div>
                 </div>
                 <Stages />
             </section>
 
-            <TestBlue 
-                title="Testimonials" classbackground="indigo-lighten-2 pt-5 pb-5" img={<i className="fas fa-quote-left"></i>}
-                text="Courtesy of Adjunct Digital Value Professor and consultant Stephen Alexander we have designed a lens to evaluate if the suggested capacity will be valuable to individuals and the likelihood of it being adopted."
-                subtitle="Brett Thomas"
-                />
+            <TestBlue
+                // title="Testimonials" 
+                classbackground="indigo-lighten-2 pt-5 pb-5" 
+                // img={<i className="fas fa-quote-left"></i>}
+                // text="Courtesy of Adjunct Digital Value Professor and consultant Stephen Alexander we have designed a lens to evaluate if the suggested capacity will be valuable to individuals and the likelihood of it being adopted."
+                subtitle="Register Expression of Interest"
+            />
 
-            <section style={{position:`relative`}}>
-                <div id="contact" className="signal"></div>   
+            <section style={{ position: `relative` }}>
+                <div id="contact" className="signal"></div>
                 <Contact />
             </section>
 
-            <footer className="mt-5" style={{position:`relative`}}>
+            <footer className="mt-5" style={{ position: `relative` }}>
                 <div className="signal" id="footer"></div>
                 <Footer />
-            </footer>   
+            </footer>
 
-        </div>
+        </div >
     )
 }
 

@@ -10,6 +10,7 @@ import Photo from '../images/cuadro holo-07.png'
 function InvestorModel(){
     return(
       <React.Fragment>
+        <br></br>
        <div className="container mb-5" >
            <Paragraph 
               title="Investor Model" 

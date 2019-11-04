@@ -44,7 +44,7 @@ class Principals extends React.Component{
                                 <small>
                                 <p className="wow fadeInUp"  data-wow-delay="0.6s"><b>Agent Centric</b></p>
                                 <p className="wow fadeInUp"  data-wow-delay="0.6s">
-                                Agent Centric , means integration only happens at the agent level, no 3rd party will ever be able to use your information or exclude you from decisions you haven't given prior permission to. (<a className="text-info font-weight-bolder" href="https://developer.holochain.org/guide/latest/faq.html#what-does-agent-centric-mean-how-is-this-different-from-data-centric">https://developer.holochain.org/guide/latest/faq.html#what-does-agent-centric-mean-how-is-this-different-from-data-centric</a>)
+                                <a className="text-info font-weight-bolder" href="https://developer.holochain.org/guide/latest/faq.html#what-does-agent-centric-mean-how-is-this-different-from-data-centric">Agent Centric</a>, means integration only happens at the agent level, no 3rd party will ever be able to use your information or exclude you from decisions you haven't given prior permission to.
                                 </p>
                                 </small>
                             </div>

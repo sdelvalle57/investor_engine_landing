@@ -25,7 +25,7 @@ function Footer(){
                                     <ul className="nav flex-column">
                                         <li className="nav-item"><a className="nav-link text-white" href="#header" data-scroll>HOME</a></li>
                                         <li className="nav-item"><a className="nav-link text-white" href="#why" data-scroll>Why</a></li>
-                                        <li className="nav-item"><a className="nav-link text-white" href="#who" data-scroll>Who</a></li>
+                                        {/* <li className="nav-item"><a className="nav-link text-white" href="#who" data-scroll>Who</a></li> */}
                                         <li className="nav-item"><a className="nav-link text-white" href="#contact" data-scroll>CONTACT</a></li>
                                         <li className="nav-item"><a className="nav-link text-white" href="https://investorengine.gitbook.io/investorengine/">Guide Book</a></li>
                                     </ul>
